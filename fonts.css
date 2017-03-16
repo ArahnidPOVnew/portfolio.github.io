@@ -1,0 +1,29 @@
+	@font-face {
+    font-family: "LeagueGothicRegular";
+    src: url("fonts/LeagueGothicRegular/LeagueGothicRegular.eot");
+    src: url("fonts/LeagueGothicRegular/LeagueGothicRegular.eot?#iefix")format("embedded-opentype"),
+    url("fonts/LeagueGothicRegular/LeagueGothicRegular.woff") format("woff"),
+    url("fonts/LeagueGothicRegular/LeagueGothicRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSansLight";
+    src: url("fonts/OpenSansLight/OpenSansLight.eot");
+    src: url("fonts/OpenSansLight/OpenSansLight.eot?#iefix")format("embedded-opentype"),
+    url("fonts/OpenSansLight/OpenSansLight.woff") format("woff"),
+    url("fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSansExtraBold";
+    src: url("fonts/OpenSansExtraBold/OpenSansExtraBold.eot");
+    src: url("fonts/OpenSansExtraBold/OpenSansExtraBold.eot?#iefix")format("embedded-opentype"),
+    url("fonts/OpenSansExtraBold/OpenSansExtraBold.woff") format("woff"),
+    url("fonts/OpenSansExtraBold/OpenSansExtraBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
