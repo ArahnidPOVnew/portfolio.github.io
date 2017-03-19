@@ -3,10 +3,13 @@
 	padding: 0;
 }
 body{
-background:url(img/workspace.jpg);
+font-family: Arial,sans-serif;
+padding: 0;
+margin:0;
+background:url(img/temnyy_pyatna.jpg);
 background-repeat:no-repeat ;
 position: relative;
-background-size: 100%;
+
 height: 100%;
 }
 header{
@@ -25,9 +28,6 @@ margin: 0 auto;
 height:200px;
 }
 
-.wraper{
-
-}
 .title{
 float: left;
 width: 400px;
@@ -68,7 +68,7 @@ margin-left: 94px;
     margin-left: 46px;
 }
 .wrapper{
-	height: 650px;
+	height: 550px;
 	position: relative;
 	margin-top: 60px;
 }
@@ -85,36 +85,41 @@ width: 200px;
 width: 200px;
 border-radius: 7px;
 }
-.pos1{
-	margin-left: 255px;
-}
-.pos2{
-	margin-left: 570px;
-}
-.pos3{
-	margin-top: 280px;
-	margin-left: -80px;
-}
 
-.pos4{
-	margin-top: 280px;
-	margin-left: 255px;
+.box_site{
+	height: 400px;
+	width: 24%;
+	position: relative;
+	margin-top: 60px;
+	display: inline-block;
 }
-
-.pos5{
-	margin-top: 280px;
-	margin-left: 570px;
+.pos1 {
+	margin-top: 255px;
+}
+.pos1 a img {
+	height: 140px;
+}
+.pos4 {
+	margin-top: 255px;
+}
+.pos4 a img {
+	height: 140px;
 }
 .pos6{
-	margin-top: 280px;
-	margin-left: 870px;
-}
-.pos7{
-	margin-left: 870px;
+	margin-top: 255px;
 }
 .pos8{
-	margin-left:-80px;
+	margin-top: 255px;
 }
-.wrapper pos2{
-	height: 135px;
+
+.social{
+	width: 300px;
+	height: 80px;
+	float: right;
+}
+.social__box{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	float: right;
 }
