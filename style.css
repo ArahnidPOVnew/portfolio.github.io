@@ -123,3 +123,56 @@ border-radius: 7px;
 	display: inline-block;
 	float: right;
 }
+/*анімація іконок*/
+ 
+ .box_git{
+ position:relative;
+ -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 6s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 6s;
+ }
+ @keyframes example {
+   100% {right:0px; top:0px;}
+    25%  { right:600px; top:0px;}   
+}
+/*анімація іконок*/
+ .box_f{
+ position:relative;
+ -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+ }
+ @keyframes example {
+   100% {right:0px; top:0px;}
+    25%  { right:600px; top:0px;}   
+}
+/*анімація іконок*/
+ 
+ .box_link{
+ position:relative;
+ -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 2s;
+ }
+ @keyframes example {
+   100% {right:0px; top:0px;}
+    25%  { right:600px; top:0px;}   
+}
+/*анімація іконок*/
+
+
+.social__box  i {
+ -moz-transition: all 0.2s ease-out;
+ -o-transition: all 0.2s ease-out;
+ -webkit-transition: all 0.2s ease-out;
+ }
+ 
+.social__box i:hover{
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ }
+ /*анімація іконок*/
