@@ -1,14 +1,16 @@
-function diplay_hide (blockId)
+function diplay_hide (block_skills)
 
 { 
-    if ($(blockId).css('display') == 'none') 
+    if ($(block_skills).css('display') == 'none') 
         { 
-            $(blockId).animate({height: 'show'}, 500); 
+            $(block_skills).animate({height: 'show'}, 500); 
         } 
     else 
         {     
-            $(blockId).animate({height: 'hide'}, 500); 
+            $(block_skills).animate({height: 'hide'}, 500); 
         }}
+
+        
 		
 $(document).ready(function() {
  $(".site__show1").css("display", "none");
@@ -22,12 +24,12 @@ $(document).ready(function() {
  
  $(document).ready(function() {
  $(".site__show3").css("display", "none");
- $(".site__show3").fadeIn(6000);
+ $(".site__show3").fadeIn(5000);
  });
  
  $(document).ready(function() {
  $(".site__show4").css("display", "none");
- $(".site__show4").fadeIn(8000);
+ $(".site__show4").fadeIn(6000);
  });
 $(document).ready(function() {
  $("header").css("display", "none");
