@@ -144,9 +144,11 @@ position:absolute;
     padding-top: 53%;
 	font-size: 8px;
 	height: 10px;
+	width: 50px;
+	float: left;
 }
  .fon_n {
-    width: 100px;
+    width: 70px;
     height: 162px;
     float: left;
     margin-top: -18px;
