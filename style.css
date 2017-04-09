@@ -9,14 +9,13 @@ body{
 font-family: Arial,sans-serif;
 padding: 0;
 margin:0;
-background:url(img/maps_world_map.jpg);
 background-repeat:no-repeat ;
 position: relative;
 
 height: 100%;
 }
 header{
-height:170px;
+height:330px;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -28,50 +27,39 @@ width: 100%;
 margin: 0 auto;
 }
 .b-header{
-height:220px;
+height:330px;
 }
 
 .title{
 float: left;
-width: 400px;
+width: 100%;
 height: 200px;
-color: #E1E1E1;
-font-family:LeagueGothicRegular;
-font-size: 48px;
+color: black;
+font-size: 40px;
 font-weight: 400;
 line-height: 30px;
 letter-spacing: 0.6px;
-margin-left: -131px;
+margin-left: 22%;
 }
 .title h1{
 	line-height: 1.3em;
 	margin-left: 10px;
-	text-shadow: 5px 0px 2px rgba(168, 168, 168, 1);
+	position: relative;
 }
 
-.title__logo{
-line-height: 10px;
-color: #E1E1E1;
-font-family:LeagueGothicRegular;
-font-size: 40px;
-font-weight: 400;
-letter-spacing: 7.5px;
-margin-left: 94px;
-text-shadow: 4px 0px 2px rgba(168, 168, 168, 1);
-}
+
 .title__logo1{
 	line-height: 10px;
-	color: #E1E1E1;
+	color: black;
 	font-size: 20px;
 	font-weight: 400;
     letter-spacing: 3.5px;
-    margin-left: 46px;
-	text-shadow: 4px 0px 2px rgba(168, 168, 168, 1);
+    margin-left: 5.5%;
 }
 .wrapper{
 	height: 550px;
 	position: relative;
-	margin-top: 60px;
+	margin-top: 1%;
 }
 .site{
 	width: 200px;
@@ -114,121 +102,43 @@ border-radius: 13px;
 }
 
 
-/*кнопка skills*/
-#block_skills ul li p{
-	line-height: 1.7em;
-	width: 9em;
-    color: #E1E1E1;
-    text-shadow: 3px -1px 1px rgba(168, 168, 168, 0.8);
-   display: inline-block;
-	}
-	#block_skills li{
-		display: inline-block;
-	}
-#block_skills {
-	padding-top: 12px;
-}
-.skills__info{
-color: rgb(255, 255, 255);
-font-size: 20px;
-padding: 8px;
-text-shadow: 4px 0px 4px rgba(30, 30, 30, 1);
--webkit-border-radius: 15px;
--moz-border-radius: 15px;
-border-radius: 15px;
-background: rgb(51, 51, 51);
-background: -moz-linear-gradient(145deg, rgb(51, 51, 51) 0%, rgb(193, 193, 193) 0%);
-background: -webkit-linear-gradient(145deg, rgb(51, 51, 51) 0%, rgb(193, 193, 193) 0%);
-background: -o-linear-gradient(145deg, rgb(51, 51, 51) 0%, rgb(193, 193, 193) 0%);
-background: -ms-linear-gradient(145deg, rgb(51, 51, 51) 0%, rgb(193, 193, 193) 0%);
-background: linear-gradient(55deg, rgb(51, 51, 51) 0%, rgb(193, 193, 193) 0%);
--webkit-box-shadow: 4px 3px 8px rgba(44, 50, 50, 1);
--moz-box-shadow:    4px 3px 8px rgba(44, 50, 50, 1);
-box-shadow:         4px 3px 8px rgba(44, 50, 50, 1);
-
-}
-.c-header{
-	margin-top: 23px;
-	}
-	
-.skills{
-position: absolute;
-padding-left: 60%;
-float: left;
-width: 358px;
-height: 270px;
-z-index: 1;
-}
-/*.b_s{
-	border-bottom: 4px double white;
-}*/
-.skills__info:hover{
-	text-shadow:         4px 3px 8px rgba(44, 50, 50, 1);
-}
-/*кнопка skills*/
 /*contacts*/
 .contacts{
-	position: absolute;
 	width: 400px;
 	height: 160px;
 	margin-top: 1%;
-background: rgb(119, 119, 119);
-background: -moz-linear-gradient(27deg, rgb(119, 119, 119) 19%, rgb(226, 226, 226) 70%);
-background: -webkit-linear-gradient(27deg, rgb(119, 119, 119) 19%, rgb(226, 226, 226) 70%);
-background: -o-linear-gradient(27deg, rgb(119, 119, 119) 19%, rgb(226, 226, 226) 70%);
-background: -ms-linear-gradient(27deg, rgb(119, 119, 119) 19%, rgb(226, 226, 226) 70%);
-background: linear-gradient(117deg, rgb(119, 119, 119) 19%, rgb(226, 226, 226) 70%);
-
--moz-border-radius-topleft: 75px;
--webkit-border-top-left-radius: 75px;
- border-top-left-radius: 75px;
--moz-border-radius-topright: 5px;
--webkit-border-top-right-radius: 5px;
-border-top-right-radius: 5px;
--moz-border-radius-bottomright: 75px;
--webkit-border-bottom-right-radius: 75px;
-border-bottom-right-radius: 75px;
--moz-border-radius-bottomleft: 5px;
--webkit-border-bottom-left-radius: 5px;
-border-bottom-left-radius: 5px;
-}
+	font-size: 16px;
+	border-bottom:4px double black;
+	}
 .contacts {
 	margin-left: 27%;
 	opacity: 0.9;
-	z-index: 2;
 }
 .contacts li{
 color: #404040;
 padding-left: 12%;
 padding-top: 3%;
 }
+
 .contacts ul li:hover{ 
-color:white;
+color:blue;
+}
+
 }
 .contacts ul li a:hover{ 
-color:white;
+color:blue;
 }
+
 /*contacts*/
 
 /*footer */
 footer{
-height:115px;
+position: relative;
+height:200px;
 border-top:4px inset gray;
 background:black;
-opacity:0.9;
+opacity:0.8;
 
-}
-.social{
-	width: 300px;
-	height: 80px;
-	float: right;
-}
-.social__box{
-	width: 60px;
-	height: 50px;
-	display: inline-block;
-	float: right;
-	margin-top:15px;
 }
 .site: hover{
 overflow:hidden;
@@ -245,88 +155,62 @@ height: 300px;
  -moz-transform: scale(1.1);
  -o-transform: scale(1.1);
  }
-/*анімація іконок*/
- 
- .box_git{
- position:relative;
- -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 8s;
+
+.social__box {
+float: left;
+color: white;
+width:33.33333333333333%;
+height:50px;
+padding-top: 2%;
  }
- @keyframes example {
-   100% {right:0px; top:0px;}
-    25%  { right:200px; top:0px;}   
-}
-/*анімація іконок*/
- .box_f{
- position:relative;
- -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration:4s; /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 4s;
+ .social__box i{
+color: #DCDCDC;
  }
- @keyframes example {
-   100% {right:0px; top:0px;}
-    25%  { right:200px; top:0px;}   
-}
-/*анімація іконок*/
- .box_twitter{
- position:relative;
- -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 2s;
- }
- @keyframes example {
-   100% {right:0px; top:0px;}
-    25%  { right:200px; top:0px;}   
-}
-/*анімація іконок*/
- 
- .box_link{
- position:relative;
- -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 6s; /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 6s;
- }
- @keyframes example {
-   100% {right:0px; top:0px;}
-    25%  { right:200px; top:0px;}   
-}
-.social__box  i {
- -moz-transition: all 0.2s ease-out;
- -o-transition: all 0.2s ease-out;
- -webkit-transition: all 0.2s ease-out;
- }
- 
 .social__box i:hover{
- -webkit-transform: scale(1.1);
- -moz-transform: scale(1.1);
- -o-transform: scale(1.1);
+color: blue;
+ }
+ .social__box p {
+display: inline;
+padding-left:9%;
  }
  .date_f{
- width:250px;
+color: white;
+ float: left;
+ width:33.33333333333333%;
  height:50px;
- float:left;
- margin-top:15px;
- color:white;
-  padding-left:1%;
- padding-top:1%;
-  font-size:12px;
+ font-size:13px;
+   }
+    .date_f p{
+ padding-left: 10%;
+padding-top: 6%;
  }
+  .date_f p:hover{
+ 	color: blue;
+ }
+
  .fon_n{
- width:270px;
+ color: white;
+ float: left;
+ width:33.33333333333333%;
  height:50px;
- float:left;
- margin-top:15px;
- color:white;
- margin-left:50px;
- line-height: 1.5;
-  padding-left:1px;
- padding-top:0.5%;
- font-size:12px;
+  font-size:12px;
+  padding-top: 2%;
  }
- 
+ .s_skills{
+ 	font-size: 19px;
+ 	font-style: italic;
+ 	 	 }
+.c-header p{
+	line-height: 19px;
+}
+.c-header p:hover{
+	font-size: 16px;
+	font-style: italic;
+	color: blue;
+}
+.skills {
+    display: show;
+}
+
 /*footer */
+ 

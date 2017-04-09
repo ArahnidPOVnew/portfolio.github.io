@@ -6,10 +6,21 @@
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="fonts.css">
+	<link href="css/Home_768.css" type="text/css"  rel="stylesheet"/>
+	<link href="css/Home_480.css" type="text/css"   rel="stylesheet"/>
+    <link href="css/Home_320.css" type="text/css"   rel="stylesheet"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jQuery.js"></script>
+	<!--[if IE 8]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script&gt;>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script&gt;>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->	
 		</head>
     <body>
 	<header>
@@ -18,44 +29,18 @@
 	          <div class="wraper">
 	          <div class="title">
 	          	<h1>Oleksandr Ponomarenko </h1></br>
-	          	<span class="title__logo">Portfolio</span></br>
 	          	<span class="title__logo1">FRONT-END / WEB-DEVELOPER</span>
 	          </div>
-	          <div class="contacts">
+	          </div>
+	           <div class="contacts">
 	          <ul>
 	          	<li><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;Phone number:&nbsp;&nbsp;+38(050)281-62-70</li>
 	          	<li><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;Email:&nbsp;&nbsp;ponomarenkoalexanderv@gmail.com</li>
 	          	<li><i class="fa fa-skype" aria-hidden="true"></i>&nbsp;&nbsp;Skype:&nbsp;&nbsp;Ponomarenko Oleksandr</li>
-	          	<li><i class="fa fa-github-alt" aria-hidden="true"></i>&nbsp;&nbsp;GitHub:&nbsp;&nbsp;<a href="https://github.com/ArahnidPOVnew" target="_blank">github.com</a></li>
+	          	<li><i class="fa fa-github-alt" aria-hidden="true"></i>&nbsp;&nbsp;GitHub:&nbsp;&nbsp;<a href="https://github.com/ArahnidPOVnew" target="_blank">https://github.com/ArahnidPOVnew</a></li>
 	          	<li><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;&nbsp;LinkedIn:&nbsp;&nbsp;<a href="https://www.linkedin.com/in/alexander-ponomarenko" target="_blank">alexander-ponomarenko</a></li>
 	          </ul>
 	          </div>
-	          <div class="skills">
-	          	 <div class="c-header">
-                   <a href="#" class="skills__info" onclick="diplay_hide('#block_skills');return false;">Skills</a>
-                   <div id="block_skills" style="display: none;">
-                   <ul>
-                          <li><p><b>HTML5</b></p></li>
-                          <li><p><b>CSS3</b></p></li>
-                          <li><p><b>JavaScript</b></p></li>
-                          <li><p><b>jQuery</b></p></li>
-                          <li><p><b>GitHub</b></p></li>
-                          <li><p><b>Bootstrap 3</b></p></li>
-                          <li><p class="b_s"><b>Learn:</b></p></li>
-                          <li><p><b>Photoshop</b></p></li>
-                          <li><p><b>AngularJS</b></p></li>
-                          <li><p><b>ReactJs</b></p></li>
-                          <li><p><b>Redux</b></p></li>
-                          <li><p class="b_s"><b>Meteor</b></p></li>
-                          <li><p><b>Using the:</b></p></li>
-                          <li><p><b>Sublime Text 3</b></p></li>
-                          <li><p><b>Web Storm</b></p></li>
-                          <li><p><b>CodePen</b></p></li>
-                       </ul>
-                        </div>
-	               </div>
-	          </div>
-          </div>
           </div>
 
           </div>
@@ -88,15 +73,37 @@
   </div>
   <footer>
  	<div class="container">
-	       <ul>
-		 <li class="date_f">&copy; 2015-<script type="text/javascript">document.write(new Date().getFullYear());</script>&nbsp;&nbsp;Portfolio-All rights reserved!</li>
-		 <li class="fon_n"><p>ponomarenkoalexanderv@gmail.com&nbsp;&nbsp;</br>+38(050)281-62-70</p></li>
-		 <li class="social__box box_twitter"><a href="https://www.facebook.com/PonomarenkoAlexand" target="_blank"><i class="fa fa-2x fa-facebook" aria-hidden="true"></i></a></li>
-         <li class="social__box box_f"><a href="#" target="_blank"><i class="fa fa-2x fa-twitter" aria-hidden="true"></i></a></li>
-         <li class="social__box box_link"><a href="https://www.linkedin.com/in/alexander-ponomarenko" target="_blank"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a></li>
-         <li class="social__box box_git"><a href="https://github.com/ArahnidPOVnew" target="_blank"><i class="fa fa-2x fa-github-alt" aria-hidden="true"></i></a></li>	
-       </ul>	   
+	     <div class="date_f">
+		 <p >&copy; 2015-<script type="text/javascript">document.write(new Date().getFullYear());</script>&nbsp;&nbsp;Portfolio</p>
+		 </div>
+
+		 <div class="fon_n">
+		 <p class="s_skills">My Skills:</p>
+		 </br>
+		 <div class="skills">
+	          	 <div class="c-header">
+                        <ul>
+                          <li><p><b>HTML5</b></p></li>
+                          <li><p><b>CSS3</b></p></li>
+                          <li><p><b>JavaScript</b></p></li>
+                          <li><p><b>jQuery</b></p></li>
+                          <li><p><b>GitHub</b></p></li>
+                          <li><p><b>Bootstrap 3</b></p></li>
+                          <li><p><b>Photoshop</b></p></li>
+                          </ul>
+                        </div>
+	               </div>
+		 </div>
+
+         <div class="social__box">
+		 <p class="box_twitter"><a href="https://www.facebook.com/PonomarenkoAlexand" target="_blank"><i class="fa fa-2x fa-facebook" aria-hidden="true"></i></a></p>
+         <p class="box_f"><a href="#" target="_blank"><i class="fa fa-2x fa-twitter" aria-hidden="true"></i></a></p>
+         <p class="box_link"><a href="https://www.linkedin.com/in/alexander-ponomarenko" target="_blank"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a></p>
+         <p class="box_git"><a href="https://github.com/ArahnidPOVnew" target="_blank"><i class="fa fa-2x fa-github-alt" aria-hidden="true"></i></a></p>	
+      	</div>
  	</div>
+ 	
+	          </div>
 	</footer>
    </body>
 </html>

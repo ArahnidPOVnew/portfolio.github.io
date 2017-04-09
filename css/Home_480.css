@@ -1,0 +1,175 @@
+@media screen and (max-width: 480px) and (min-width: 320px){
+  html {
+      -webkit-text-size-adjust: none;
+   }
+   
+header{
+  	max-width: 480px;
+	width: 100%;
+	height: 190px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float:none;
+}
+.container{
+  max-width: 480px;
+  margin: 0 auto;
+  height: auto;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+.title {
+padding-top:30px;
+float: left;
+width: 240px;
+height: 200px;
+line-height:20px;
+letter-spacing: 1.2px;
+margin-left: 22%;
+font-size:22px;
+}
+.title h1{
+	line-height: 1.3em;
+	margin-left: 10px;
+	text-shadow: 1px 0px 2px rgba(168, 168, 168, 1);
+}
+.title__logo {
+float: left;
+width: 100px;
+height:40px;
+line-height:20px;
+letter-spacing: 1.2px;
+margin-left: 70px;
+font-size:10px;
+
+}
+.title__logo1{
+float: left;
+width:240px;
+height: 30px;
+line-height:2px;
+letter-spacing: 1.2px;
+margin-left: 15px;
+font-size:10px;
+}
+
+.wrapper{
+height: auto;
+margin-top: 14%;
+}
+.contacts{
+position:absolute;
+	width: 250px;
+	height: 99px;
+	margin-top: 33%;
+	font-size: 10px;
+	border-bottom:4px double black;
+	border-top:4px double black
+	}
+.contacts {
+	margin-left: 20%;
+	opacity: 1;
+}
+.contacts li{
+color: #404040;
+padding-left: 2%;
+padding-top: 3%;
+}
+
+/*contacts*/
+.c-header{
+	width: 60px;
+	height: 100px;
+	margin-top: auto;
+	float:none;
+	}
+	
+
+.site{
+	width: 95px;
+	height: 95px;
+	float: center;
+	position: absolute;
+			}
+.site a img{
+width: 95px;
+height: 95px;
+}
+.box_site{
+	height: 230px;
+	width: 28%;
+	position: relative;
+	margin-top: 65px;
+	float:left;
+	padding-left:14%;
+}
+.site__show3 {
+margin-top: -2px;
+}
+.site__show4 {
+margin-top: -2px;
+}
+.pos1 {
+	margin-top: 116px;
+}
+.pos1 a img {
+	height: 95px;
+}
+.pos4 {
+	margin-top: 116px;
+}
+.pos4 a img {
+	height: 95px;
+}
+.pos6{
+	margin-top: 116px;
+}
+.pos8{
+	margin-top: 116px;
+}
+footer{
+height:200px;
+float:center;
+}
+.date_f  {
+position:absolute;
+padding-left: 31%;
+padding-top: 36%;
+font-size:10px;
+}
+ .fon_n {
+    width: 100px;
+    height: 163px;
+    float: left;
+    margin-top: -18px;
+    margin-left: 7%;
+    line-height: 1.5;
+    padding-top: 7.5%;
+	font-size:10px;
+   }
+ .skills {
+    
+}
+ .s_skills {
+    font-size: 16px;
+}
+.c-header {
+    width: 60px;
+    height: 120px;
+   margin-top: -15px;
+    float: none;
+	font-size:9px;
+}
+.social__box{
+width:129px;
+padding-top: 5%;
+margin-left:31%;
+}
+.social__box i{
+font-size:20px;
+ }	
