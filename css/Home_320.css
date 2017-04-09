@@ -168,10 +168,10 @@ position:absolute;
 	font-size:9px;
 }
 .social__box{
-position:absolute;
-width:134px;
-
-margin:0 auto;
+float: left;
+width:1px;
+margin-left:42%;
+height: 5px;
 }
 .social__box i{
 font-size:20px;
