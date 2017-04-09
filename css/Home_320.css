@@ -136,7 +136,7 @@ margin-top: -2px;
 footer{
 position:relative;
 height:200px;
-float:center;
+float:none;
 }
 .date_f  {
 position:absolute;
@@ -170,8 +170,8 @@ position:absolute;
 .social__box{
 position:absolute;
 width:134px;
-padding-top: 4%;
-margin-left:42%;
+
+margin:0 auto;
 }
 .social__box i{
 font-size:20px;
