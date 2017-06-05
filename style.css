@@ -100,7 +100,9 @@ border-radius: 13px;
 .pos8{
 	margin-top: 255px;
 }
-
+.pos8 img{
+	height: 139px;
+}
 
 /*contacts*/
 .contacts{
@@ -134,7 +136,7 @@ color:blue;
 /*footer */
 footer{
 position: relative;
-height:200px;
+height:229px;
 border-top:4px inset gray;
 background:black;
 opacity:0.8;
@@ -185,7 +187,7 @@ color: white;
 padding-top: 6%;
  }
   .date_f p:hover{
- 	color: blue;
+ 	color: #41B9FF;
  }
 
  .fon_n{
@@ -206,7 +208,7 @@ padding-top: 6%;
 .c-header p:hover{
 	font-size: 16px;
 	font-style: italic;
-	color: blue;
+	color: #41B9FF;
 }
 .skills {
     display: show;
