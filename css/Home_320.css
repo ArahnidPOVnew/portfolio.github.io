@@ -135,21 +135,21 @@ margin-top: -2px;
 }
 footer{
 position:relative;
-height:200px;
+height:230px;
 float:none;
 }
 .date_f  {
 position:absolute;
   padding-left: 33%;
-    padding-top: 53%;
+    padding-top: 58%;
 	font-size: 8px;
 	height: 10px;
-	width: 50px;
+	width: 98px;
 	float: left;
 }
  .fon_n {
-    width: 70px;
-    height: 162px;
+    width: 107px;
+    height: 176px;
     float: left;
     margin-top: -18px;
     margin-left: 7%;
