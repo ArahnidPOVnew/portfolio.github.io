@@ -103,7 +103,9 @@ border-radius: 13px;
 .pos8 img{
 	height: 139px;
 }
-
+.pos5 a img {
+	height: 140px;
+}
 /*contacts*/
 .contacts{
 	width: 400px;
